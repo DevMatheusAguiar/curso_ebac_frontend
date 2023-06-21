@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: none;
+    padding: none;
+}
+
+body {
+    background-image: url(imagens/background-news.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body > header {
+    background-color: #818c9e51;
+    padding: 6px 0;
+}
+
+li > a {
+    background-color: #727d8e89;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 0px black;
+    font-size: larger;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+li > a:hover {
+    transition: 0.5s;
+    background-color: #92953f79;
+    text-decoration: underline;
+}
+
+h1 {
+    text-shadow: 10px 5px 7px black;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+}
+
+header > a {
+    text-decoration:none;
+    color: black;
+    font-size: 1.2em;
+}
+
+header > a :hover {
+    text-decoration: underline;
+}
+
+div h2 {
+    font-size: 1.8em;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article > p {
+    
+}
+
+.articles article > address {
+    font-family: sans-serif;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-top: 8px;
+}
+
+#criminalidade {
+    margin-top: 35px;
+}
+
+#criminalidade p {
+    font-family: sans-serif;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 1.2em;
+}
